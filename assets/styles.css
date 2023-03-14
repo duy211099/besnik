@@ -43,8 +43,9 @@ a {
 
 /* Header */
 .header {
-    height: 100vh;
+    height: 97vh;
     background-color: #E6F0FF;
+    position: relative;
 }
 
 .navbar {
@@ -56,15 +57,15 @@ a {
 .navbar ul {
     display: flex;
     align-items: center;
-    padding-left: 50px;
-    gap: 14px;
+    padding-left: 56px;
+    gap: 12px;
 }
 
 .navbar ul a {
     font-weight: 500;
     font-size: 1.4rem;
     color: #4F5361;
-    padding: 8px 14px;
+    padding: 6px 8px;
 }
 
 .navbar ul a:hover {
@@ -121,4 +122,10 @@ a {
 .hero .hero-cta{
     margin-top: 40px;
     min-width: 170px;
+}
+
+.hero .hero-img {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
 }
