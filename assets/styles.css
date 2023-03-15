@@ -152,9 +152,90 @@ a {
     color: #7D8589;
 }
 
-.client .images{
+.client .images {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Guides */
+
+.guides {
+    margin-top: 160px;
+}
+
+.guides .sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+    position: relative;
+}
+
+.guides .sub-title::before {
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 4px;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000339;
+    border-radius: 12px;
+}
+
+.guides .desc {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 459px;
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    text-align: center;
+    color: #5A6473;
+}
+
+.guides .list-guides {
+    width: 685px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guides .guide-item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.guides .title {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    color: #3B3C45;
+}
+
+.guides .link {
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0689FF;
+}
+
+.guides .cta-guides{
+    text-align: center;
+    margin-top: 48px;
+    min-width: 170px;
 }
