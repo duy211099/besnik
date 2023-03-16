@@ -41,7 +41,19 @@ a {
     opacity: 0.9;
 }
 
+.link {
+    display: flex;
+    gap: 8px;
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0689FF;
+}
+
 /* Header */
+
 .header {
     min-height: 95vh;
     background-color: #E6F0FF;
@@ -94,6 +106,7 @@ a {
 
 .hero .info {
     width: 50%;
+    padding-bottom: 20px;
 }
 
 .hero .sub-title {
@@ -226,17 +239,35 @@ a {
     color: #3B3C45;
 }
 
-.guides .link {
-    margin-top: 9px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    color: #0689FF;
-}
-
-.guides .cta-guides{
+.guides .cta-guides {
     text-align: center;
     margin-top: 48px;
     min-width: 170px;
+}
+
+/* Featured */
+.featured {
+    background: #F5FAFE;
+    padding: 110px 0;
+}
+
+.featured .sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.featured .desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    color: #5A6473;
 }
