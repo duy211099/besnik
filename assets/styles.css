@@ -153,7 +153,8 @@ a {
 /* Client */
 
 .client {
-    margin-top: 122px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 .client .row {
@@ -182,7 +183,7 @@ a {
 /* Guides */
 
 .guides {
-    margin-top: 160px;
+    padding-top: 80px;
     padding-bottom: 120px;
 }
 
