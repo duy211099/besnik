@@ -52,6 +52,13 @@ a {
     color: #0689FF;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* Header */
 
 .header {
@@ -274,7 +281,6 @@ a {
 
 .featured .list {
     display: flex;
-    flex-basis: calc((100% - 60px) / 3);
     gap: 30px;
     margin-top: 68px;
 }
@@ -283,6 +289,7 @@ a {
     background: white;
     box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
     border-radius: 12px;
+    flex: 1;
 }
 
 .featured-card .thumb {
@@ -300,20 +307,21 @@ a {
     align-items: start;
 }
 
-.featured-card .title {
+.featured-card .title a {
     font-weight: 600;
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.5;
     text-align: center;
     color: #000339;
 }
 
 .featured-card .address {
+    --line-clamp: 3;
+
     margin-top: 11px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
-    text-align: center;
     color: #A3A6AB;
 }
 
