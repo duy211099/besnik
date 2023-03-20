@@ -397,7 +397,7 @@ a {
     border-radius: 50%;
 }
 
-.stats .avatar-group .avatar + .avatar{
+.stats .avatar-group .avatar+.avatar {
     margin-left: -3px;
 }
 
@@ -442,6 +442,7 @@ a {
     top: 0;
     left: 0;
     background: white;
+    box-shadow: 90px 85px 100px rgba(0, 0, 0, 0.06);
 }
 
 .stats-trend .value {
@@ -470,4 +471,71 @@ a {
     height: 1.2px;
     background: #E9E9E9;
     margin-top: 25px;
+}
+
+.stats .row-qty {
+    margin: 180px 32px 50px;
+    justify-content: space-between;
+}
+
+.row-qty .qty {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+    color: #000000;
+}
+
+.row-qty .qty-desc {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #7B8087;
+}
+
+.subscription {
+    margin-top: 50px;
+}
+
+.subscription .body {
+    display: flex;
+    align-items: center;
+    height: 370px;
+    background: #063183;
+    border-radius: 20px;
+    position: relative;
+}
+
+.subscription .info {
+    padding: 0 80px;
+    max-width: 65%;
+}
+
+.subscription .sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.subscription .desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.subscription .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background: white;
+    color: #002366;
+}
+
+.subscription .image {
+    position: absolute;
+    bottom: 0;
+    right: 206px;
 }
