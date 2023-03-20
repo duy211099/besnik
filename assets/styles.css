@@ -377,6 +377,30 @@ a {
     border-radius: 12px;
 }
 
+.stats .avatar-block {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    column-gap: 16px;
+}
+
+.stats .avatar-group {
+    display: flex;
+
+}
+
+.stats .avatar {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats .avatar-group .avatar + .avatar{
+    margin-left: -3px;
+}
+
 .stats .info {
     margin: 79px 0 0 165px;
 }
