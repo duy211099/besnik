@@ -77,8 +77,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 36px;
-    padding-bottom: 12px;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .navbar ul {
