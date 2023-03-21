@@ -62,7 +62,7 @@ a {
 /* Header */
 
 .header {
-    min-height: 95vh;
+    min-height: calc(95vh - 90px);
     background-color: #E6F0FF;
     position: relative;
 }
