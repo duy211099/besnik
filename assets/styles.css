@@ -67,10 +67,18 @@ a {
     position: relative;
 }
 
+.fixed-header{
+    position: sticky;
+    top: -24px;
+    z-index: 1;
+    background-color: #E6F0FF;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding-top: 36px;
+    padding-bottom: 12px;
 }
 
 .navbar ul {
@@ -108,7 +116,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
